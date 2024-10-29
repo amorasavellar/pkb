@@ -1,6 +1,6 @@
 ## What is Git?
 
-"Describe here"
+Is a distributed version control system, primarily used in software development, but can be used to record the edit history of any type of file.
 
 ## Inicial Git Config
 
@@ -85,4 +85,7 @@ Create a new branch
 $ git checkout -b <new_branch_name>
 ```
 
-<Continue -- Introdução ao GitHub e Repositorios Remotos - 1:27>
+View gitgraph
+```bash
+$ git log --oneline --graph --all
+```
